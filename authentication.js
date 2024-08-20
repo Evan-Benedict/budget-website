@@ -3,7 +3,7 @@ const form = document.getElementById('authentication-form');
     const errorMsg = document.getElementById('authentication-error-msg');
 
     // The correct code to compare with (example: '1234')
-    const correctCode = '1911';
+    const correctCode = '3636';
 
     form.addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent the form from submitting in the traditional way

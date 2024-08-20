@@ -14,6 +14,7 @@ const form = document.getElementById('authentication-form');
         if (enteredCode === correctCode) {
             // Code is correct, proceed with the desired action (e.g., redirect, show success message)
             alert('Code is correct!'); // Example action
+            window.location.href = "./AppContent/income_expense.html";
         } else {
             // Code is incorrect, show error message
             errorMsg.style.opacity = '1'; // Show the error message

@@ -6,7 +6,7 @@ loginButton.addEventListener("click", (e) => {
     e.preventDefault();
     const authCode = loginForm.code.value;
 
-    if (authCode === "1911") {
+    if (authCode === "Hi") {
         alert("You have successfully logged in.");
         // New page
     } else {

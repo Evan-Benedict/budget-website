@@ -1,0 +1,52 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* HTML and Body Styling */
+  html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3a3a;
+    margin: 0;
+  }
+  
+  /* Main Container */
+  #main-holder {
+    width: 10%;
+    max-width: 400px;
+    padding: 20px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+
+.income_expense_tabs {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.income_expense_tabs li {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.income_expense_tabs li:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}

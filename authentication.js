@@ -6,18 +6,12 @@ const form = document.getElementById('authentication-form');
     const correctCode = '3636';
 
     form.addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent the form from submitting in the traditional way
-
         const enteredCode = codeField.value;
 
         // Compare the entered code with the correct code
         if (enteredCode === correctCode) {
-            // Code is correct, proceed with the desired action (e.g., redirect, show success message)
-            alert('Code is correct!'); // Example action
             window.location.href = "./AppContent/income_expense.html";
         } else {
-            // Code is incorrect, show error message
             errorMsg.style.opacity = '1'; // Show the error message
-            errorMsg.textContent = 'Invalid Code'; // Ensure the error message is correct
         }
     });

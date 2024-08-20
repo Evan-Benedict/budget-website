@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HTML and Body Styling */
+html, body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a3a3a;
+  margin: 0;
+}
+
+/* Main Container */
+#main-holder {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Styling */
+#authentication-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #3a3a3a;
+  text-align: center;
+}
+
+/* Error Message Styling */
+#authentication-error-msg-holder {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#authentication-error-msg {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8a0000;
+  border: 1px solid #8a0000;
+  background-color: #e58f8f;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Form Styling */
+#authentication-form {
+  width: 100%;
+  display: grid;
+  gap: 15px;
+}
+
+.authentication-form-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+}
+
+.authentication-form-field::placeholder {
+  color: #999;
+}
+
+/* Submit Button Styling */
+#authentication-form-submit {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #3a3a3a;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
+}
+
+#authentication-form-submit:hover {
+  background-color: #2a2a2a;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  #main-holder {
+      width: 100%;
+      padding: 15px;
+  }
+
+  #authentication-error-msg {
+      font-size: 10px;
+      padding: 8px;
+  }
+
+  .authentication-form-field {
+      padding: 8px;
+  }
+
+  #authentication-form-submit {
+      padding: 8px;
+  }
+}

@@ -8,8 +8,8 @@ loginButton.addEventListener("click", (e) => {
 
     if (authCode === "1911") {
         alert("You have successfully logged in.");
-        location.reload();
+        // New page
     } else {
-        loginErrorMsg.style.opacity = 1;
+        loginErrorMsg.style.color = "#8a0000";
     }
 })

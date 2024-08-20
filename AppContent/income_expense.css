@@ -4,17 +4,6 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
-  /* HTML and Body Styling */
-  html, body {
-    height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #3a3a3a;
-    margin: 0;
-  }
 
   .navbar {
     width: 100%;

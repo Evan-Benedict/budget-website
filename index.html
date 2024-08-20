@@ -11,11 +11,19 @@
     </head>
 
     <body>
-        <form id="authentication-form">
-            <input type="password" name="password" id="authentication-code-field" class="authentication-form-field" placeholder="XXXX">
-        </form>
+        <main id="main-holder">
+            <h1 id="authentication-header">Authentication Token</h1>
+            
+            <div id=""authentication-error-msg-holder">
+                <p id=""authentication-error-msg>Invalid Code</p>
+            </div>
 
+            <form id="authentication-form">
+                <input type="password" name="password" id="authentication-code-field" class="authentication-form-field" placeholder="XXXX">
+                <input type="submit" value="Submit" id="authentication-form-submit">
+            </form>
 
+        </main>
     </body>
 
 

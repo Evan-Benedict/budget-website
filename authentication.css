@@ -13,7 +13,7 @@ html {
   }
   
   #main-holder {
-    width: 50%;
+    width: 70%;
     height: 70%;
     display: grid;
     justify-items: center;
@@ -38,9 +38,10 @@ html {
     padding: 5px;
     font-size: 12px;
     font-weight: bold;
-    color: #ffffff;
+    color: #8a0000;
     border: 1px solid #8a0000;
     background-color: #e58f8f;
+    opacity: 0;
   }
   
   #authentication-form {

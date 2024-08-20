@@ -10,6 +10,6 @@ loginButton.addEventListener("click", (e) => {
         alert("You have successfully logged in.");
         // New page
     } else {
-        loginErrorMsg.style.color = "#8a0000";
+        loginErrorMsg.style.opacity = 1;
     }
 })

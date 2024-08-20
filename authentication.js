@@ -6,6 +6,7 @@ const form = document.getElementById('authentication-form');
     const correctCode = '3636';
 
     form.addEventListener('submit', function(event) {
+        event.preventDefault();
         const enteredCode = codeField.value;
 
         // Compare the entered code with the correct code
